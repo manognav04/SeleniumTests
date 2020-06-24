@@ -8,7 +8,7 @@ public class googleSearch {
 		
 		String path = System.getProperty("user.dir");
 		System.out.println(path);
-		System.setProperty("webdriver.chrome.driver", "/Users/manognav/git/SeleniumTests/SeleniumTests/driver/chromedriver");
+		System.setProperty("webdriver.chrome.driver", path+"/driver/chromedriver");
 		
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.google.com");
